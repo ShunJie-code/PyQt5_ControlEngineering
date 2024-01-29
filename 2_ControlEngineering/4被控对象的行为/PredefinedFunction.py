@@ -11,7 +11,7 @@ def line_style_generator():
     line_id = 0
     while True:
         yield line_style[line_id]
-        line_id = (line_id + 1) / len(line_style)
+        line_id = (line_id + 1) % len(line_style)
 
 
 def plot_set(fig_ax, *args):
