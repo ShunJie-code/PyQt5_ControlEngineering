@@ -6,6 +6,10 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtCore import *
+
+# 打印变量
+print("PyQt5安装版本 = {}".format(QT_VERSION_STR))
 
 if __name__ == '__main__':
     # 有且只有一个对象，传入运行程序时的参数列表
