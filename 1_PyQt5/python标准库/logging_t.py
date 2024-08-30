@@ -38,6 +38,5 @@ def test3():
     sh.setFormatter()
 
 
-
 if __name__ == '__main__':
     test2()
