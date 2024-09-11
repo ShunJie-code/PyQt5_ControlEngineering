@@ -22,9 +22,9 @@ def plot_set(fig_ax, *args):
         fig_ax.legend(loc=args[2])  # 通过参数3设置图例的位置
 
 
-def bodeplot_set(fig_ax, *args):
+def bode_plot_set(fig_ax, *args):
     # 设置幅频图的网格和y轴的标签
-    fig_ax.grid(which='both', ls=':')
+    fig_ax[0].grid(which='both', ls=':')
     fig_ax[0].set_ylabel('Gain [dB]')
 
     # 设置相频图的网格和x、y轴标签
@@ -36,5 +36,3 @@ def bodeplot_set(fig_ax, *args):
         fig_ax[1].legend(loc=args[1])
     if len(args) > 1:
         fig_ax[0].legend(loc=args[1])
-
-
