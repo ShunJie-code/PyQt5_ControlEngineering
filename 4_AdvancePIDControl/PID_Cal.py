@@ -19,3 +19,5 @@ rlocus(d_p)
 print("hello")
 plt.show()
 # plt.close()
+
+
