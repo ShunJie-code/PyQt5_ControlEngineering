@@ -6,6 +6,10 @@
 """
 
 
+def hi():
+    print('cool')
+
+
 def line_style_generator():
     line_style = ['-', '--', '-.', ':']
     line_id = 0
