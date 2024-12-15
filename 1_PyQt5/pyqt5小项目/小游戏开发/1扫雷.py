@@ -263,7 +263,7 @@ class MineWindow(QWidget):
         self.setFixedSize(self.width(), self.height())
         self.setWindowTitle("扫雷")
 
-        ## 窗口居中于屏幕
+        # 窗口居中于屏幕
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)

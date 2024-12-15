@@ -16,7 +16,7 @@ if __name__ == '__main__':
     # 5 窗口大小
     w.resize(500, 300)
     # 移动窗口位置
-    # w.move(0, 0)
+    w.move(0, 0)
 
     # 6 按键 两步设置父窗口
     btn = QPushButton("按键")
