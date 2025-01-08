@@ -1,6 +1,7 @@
 """
 第六章，关注开环系统的控制系统设计
 开环系统设计规格
+6.1.1 稳定性
 
 """
 import matplotlib.pyplot as plt
