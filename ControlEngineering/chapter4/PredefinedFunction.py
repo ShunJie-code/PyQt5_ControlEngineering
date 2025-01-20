@@ -37,6 +37,6 @@ def bode_plot_set(fig_ax, *args):
     fig_ax[1].set_ylabel('Phase [deg]')
 
     if len(args) > 0:
-        fig_ax[1].legend(loc=args[1])
+        fig_ax[1].legend(loc=args[0])
     if len(args) > 1:
         fig_ax[0].legend(loc=args[1])
